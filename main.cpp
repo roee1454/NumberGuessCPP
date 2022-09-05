@@ -90,6 +90,7 @@ static void GuessWithoutHint(string rdNum){
         else {
             UpdateDisplay();
             falseGuess -= 1;
+            cout<<"Wrong guess!\n-1 Guesses\nCurrent guesses: "<<falseGuess<<endl;
             GuessWithoutHint(rdNum);
         }
     }
